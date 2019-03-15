@@ -13,7 +13,7 @@ export class HeaderBarComponent {
   shoppingCart: ShoppingCart;
 
   constructor(private store: Store<AppState>) {
-    store.select('shoppingCart').subscribe((data: any) => {
+    store.select('shoppingCartStore').subscribe((data: any) => {
       this.shoppingCart = data as any;
     });
   }

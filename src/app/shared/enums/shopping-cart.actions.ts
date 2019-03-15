@@ -1,5 +1,5 @@
 
 export enum ShoppingCartAction {
-    AddProduct = 1,
-    RemoveProduct = 2
+    AddProduct = 'AddProduct',
+    RemoveProduct = 'RemoveProduct'
 }

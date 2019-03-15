@@ -30,7 +30,7 @@ import { shoppingCartReducer } from './reducers/shopping-cart.reducer';
     BrowserModule,
     AppRoutingModule,
     StoreModule.forRoot({
-      tutorial: shoppingCartReducer
+      shoppingCartStore: shoppingCartReducer
     })
   ],
   providers: [
