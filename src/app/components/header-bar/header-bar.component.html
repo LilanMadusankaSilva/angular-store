@@ -1,12 +1,14 @@
 <nav class="nav-wrapper">
-    <div class="container">
-      <a class="brand-logo" routerLink="/">Shopping</a>
+  <div class="container">
+    <a class="brand-logo" routerLink="/">Shopping</a>
 
-      <ul class="right">
-        <li>
-          <span>Total {{shoppingCart.totalItems}} item(s) (${{shoppingCart.totalPrice}})</span>
-          <a routerLink="/cart"><i class="material-icons">shopping_cart</i></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <ul class="right">
+      <li>
+        <span>Total {{shoppingCart.totalItems}} item(s) (${{shoppingCart.totalPrice}})</span>
+      </li>
+      <li>
+        <a routerLink="/cart"><i class="material-icons">shopping_cart</i></a>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -12,7 +12,7 @@ export class AddProduct implements Action {
 export class RemoveProduct implements Action {
     readonly type = ShoppingCartAction.RemoveProduct.toString();
 
-    constructor(public payload: Product) {
+    constructor(public payload: Product, public removeAll: boolean) {
     }
 }
 
