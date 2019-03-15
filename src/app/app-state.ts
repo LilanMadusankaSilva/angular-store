@@ -1,5 +1,6 @@
 
-// tslint:disable-next-line:no-empty-interface
-export interface AppState {
+import { ShoppingCart } from './models/shopping-cart.model';
 
+export interface AppState {
+  readonly shoppingCart: ShoppingCart;
 }
